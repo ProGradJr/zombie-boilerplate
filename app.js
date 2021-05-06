@@ -1,1 +1,5 @@
-// Code for opening game.html
+const button = document.getElementById("button");
+
+button.onclick = () => {
+  location.href = "./game.html";
+};
